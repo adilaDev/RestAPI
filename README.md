@@ -4,12 +4,12 @@
 This documentation provides an overview of how to use the REST API services. You can interact with the API using https methods such as `GET`, `POST`, `PUT`, and `DELETE`.
 
 ## Programming languages ​​and libraries used:
-- `Codeigniter 3 (PHP Framework)`
-- `Bootsrap 4`
+- `Codeigniter 3 (PHP Framework)` [link](https://codeigniter.com/download)
+- `Bootstrap 4` [link](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
 - `Custom Loading`
-- `Sweetalert2`
-- `Highlight js`
-- `JSON Data Viewer`
+- `Sweetalert2` [link](https://sweetalert2.github.io/)
+- `Highlight js` [link](https://highlightjs.org/usage/)
+- `JSON Data Viewer` [link](https://www.jqueryscript.net/other/jQuery-Plugin-For-Easily-Readable-JSON-Data-Viewer.html)
 
 ## Authentication
 The API restricts access based on your IP address. Only authorized IPs can send `POST`, `PUT`, and `DELETE` requests.
