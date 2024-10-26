@@ -3,13 +3,21 @@
 ## Introduction
 This documentation provides an overview of how to use the REST API services. You can interact with the API using https methods such as `GET`, `POST`, `PUT`, and `DELETE`.
 
+## Programming languages ​​and libraries used:
+- `Codeigniter 3 (PHP Framework)`
+- `Bootsrap 4`
+- `Custom Loading`
+- `Sweetalert2`
+- `Highlight js`
+- `JSON Data Viewer`
+
 ## Authentication
 The API restricts access based on your IP address. Only authorized IPs can send `POST`, `PUT`, and `DELETE` requests.
 
 **Allowed IPs:**
-- `127.0.0.1`
-- `192.168.1.7`
-- `110.138.91.114`
+- `127.x.x.x`
+- `192.xxx.x.x`
+- `110.xxx.xx.xxx`
 
 ## Available Endpoints
 
