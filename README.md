@@ -33,32 +33,32 @@ The API restricts access based on your IP address. Only authorized IPs can send 
 ## API Examples
 
 ### GET Request Example
-Use the following cURL command to retrieve data: [Demo API](https://yourdomain.com/restapi/api?type=get&db_name=your_db&tb_name=your_table)
+Use the following cURL command to retrieve data: [Demo API](https://yourdomain.com/api?type=get&db_name=your_db&tb_name=your_table)
 
 ```bash
-curl -X GET "https://yourdomain.com/restapi/api?type=get&db_name=your_db&tb_name=your_table"
+curl -X GET "https://yourdomain.com/api?type=get&db_name=your_db&tb_name=your_table"
 ```
 
 ### POST Request Example
 Use the following cURL command to insert data:
 ```bash
-curl -X POST -d "field1=value1&field2=value2" "https://yourdomain.com/restapi/api?type=insert&db_name=your_db&tb_name=your_table"
+curl -X POST -d "field1=value1&field2=value2" "https://yourdomain.com/api?type=insert&db_name=your_db&tb_name=your_table"
 ```
 
 ### PUT Request Example
 Use the following cURL command to update data:
 ```bash
-curl -X PUT -d "field1=new_value1&field2=new_value2" "https://yourdomain.com/restapi/api?type=update&db_name=your_db&tb_name=your_table"
+curl -X PUT -d "field1=new_value1&field2=new_value2" "https://yourdomain.com/api?type=update&db_name=your_db&tb_name=your_table"
 ```
 ### DELETE Request Example
 Use the following cURL command to delete data:
 ```bash
-curl -X DELETE -d "id=your_id" "https://yourdomain.com/restapi/api?type=delete&db_name=your_db&tb_name=your_table"
+curl -X DELETE -d "id=your_id" "https://yourdomain.com/api?type=delete&db_name=your_db&tb_name=your_table"
 ```
 ### Using Fetch API
 The following JavaScript code demonstrates how to interact with the API using the Fetch API:
 ```bash
-fetch("https://yourdomain.com/restapi/api/endpoint", {
+fetch("https://yourdomain.com/api/endpoint", {
     method: "GET",
     headers: {
         "Accept": "application/json"
