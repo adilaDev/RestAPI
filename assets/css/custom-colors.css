@@ -1,0 +1,87 @@
+:root {
+    --custom-primary-color: #7367f0;
+    --custom-primary-light-color: #9e95f5;
+    /* --custom-primary-dark-color: #4839eb; */
+    --custom-primary-dark-color: #5046bd;
+    --custom-primary-hover: #5e54c7;
+    --custom-primary-gradient-color: linear-gradient(47deg, #7367f0, #9e95f5);
+    --white: #ffffff;
+    --black: #000000;
+    /* effect blur */
+    --color-effect-blur: #878787;
+    --color-effect-rgb-5: rgb(135 135 135 / 5%);
+    --color-effect-rgb-15: rgb(135 135 135 / 15%);
+    --color-effect-rgb-25: rgb(135 135 135 / 25%);
+    --color-effect-rgb-35: rgb(135 135 135 / 35%);
+    --color-effect-rgb-45: rgb(135 135 135 / 45%);
+    --color-effect-rgb-55: rgb(135 135 135 / 55%);
+    --color-effect-rgb-65: rgb(135 135 135 / 65%);
+    --color-effect-rgb-75: rgb(135 135 135 / 75%);
+}
+
+.btn.btn-primary {
+    background-color: var(--custom-primary-color) !important;
+}
+
+.btn.btn-primary:hover {
+    background-color: var(--custom-primary-hover) !important;
+    border-color: #4458b8 !important;
+}
+
+.btn.btn-outline-primary {
+    color: var(--custom-primary-color) !important;
+    border-color: var(--custom-primary-color) !important;
+}
+
+.btn.btn-outline-primary:hover {
+    color: var(--white) !important;
+    background-color: var(--custom-primary-color) !important;
+    border-color: var(--custom-primary-color) !important;
+}
+
+.btn.btn-light-primary {
+    background-color: var(--custom-primary-light-color) !important;
+}
+
+.btn.btn-dark-primary {
+    background-color: var(--custom-primary-dark-color) !important;
+}
+
+.btn.btn-gradient-primary {
+    background-image: var(--custom-primary-gradient-color) !important;
+    color: var(--white) !important;
+}
+
+.text-primary {
+    color: var(--custom-primary-color) !important;
+}
+
+.nav-tabs-custom .nav-item .nav-link.active {
+    color: var(--custom-primary-color) !important;
+}
+
+.bg-primary {
+    background-color: var(--custom-primary-color) !important;
+}
+
+.nav-tabs-custom .nav-item .nav-link::after {
+    background: var(--custom-primary-color) !important;
+}
+
+.form-check-input:checked {
+    background-color: var(--custom-primary-color) !important;
+    border-color: var(--custom-primary-color) !important;
+}
+
+.card-effect {
+    box-shadow: 0px 10px 15px rgb(135 135 135 / 25%) !important;
+    border-radius: 10px;
+}
+
+div.main-content div.page-content {
+    margin-top: 25px !important;
+}
+
+body[data-layout-size=boxed] {
+    background-color: #fefefe !important;
+}

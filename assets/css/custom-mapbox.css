@@ -1,0 +1,141 @@
+/* ubah icon default dari mapbox-gl-draw disini */
+
+.mapbox-gl-draw_line {
+    background-image: url("../icon-mapbox/circle.svg") !important;
+}
+
+.mapbox-gl-draw_polygon {
+    background-image: url("../icon-mapbox/rectangle.svg") !important;
+}
+
+
+/* mode dark change icon to white */
+
+.mapboxgl-ctrl-group.mapboxgl-ctrl.dark .mapbox-gl-draw_line {
+    background-image: url("../icon-mapbox/circle_white.svg") !important;
+}
+
+.mapboxgl-ctrl-group.mapboxgl-ctrl.dark .mapbox-gl-draw_polygon {
+    background-image: url("../icon-mapbox/rectangle_white.svg") !important;
+}
+
+.mapboxgl-ctrl-group.mapboxgl-ctrl.dark .mapbox-gl-draw_trash {
+    background-image: url("../icon-mapbox/delete_white.svg") !important;
+}
+
+.mapboxgl-ctrl.dark button.mapboxgl-ctrl-zoom-in .mapboxgl-ctrl-icon {
+    background-image: url("../icon-mapbox/zoom_in_white.svg") !important;
+}
+
+.mapboxgl-ctrl.dark button.mapboxgl-ctrl-zoom-out .mapboxgl-ctrl-icon {
+    background-image: url("../icon-mapbox/zoom_out_white.svg") !important;
+}
+
+.mapboxgl-ctrl.dark button.mapboxgl-ctrl-compass .mapboxgl-ctrl-icon {
+    background-image: url("../icon-mapbox/compas_white.svg") !important;
+}
+
+.mapboxgl-ctrl.dark button.mapboxgl-ctrl-fullscreen .mapboxgl-ctrl-icon {
+    background-image: url("../icon-mapbox/fullscreen_white.svg") !important;
+}
+
+.mapboxgl-ctrl.dark button.mapboxgl-ctrl-shrink .mapboxgl-ctrl-icon {
+    background-image: url("../icon-mapbox/exit_fullscreen_white.svg") !important;
+}
+
+.mapboxgl-ctrl.dark .mapbox-gl-draw_ctrl-draw-btn.active {
+    /* background-color: #c3c3c3; */
+    background-color: #a6b0cf;
+}
+
+
+/* END mode dark */
+
+.mapbox-gl-draw_trash {
+    /* background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxkZWZzPjxwYXRoIGQ9Ik0xNy43ODcgMTguNDgxbC02LjEzOS01LjEzMS01LjI0MyA2LjAzMiA0LjE0OSAzLjYwNmgzLjMxNWwzLjkxOC00LjUwN3ptLTEuMjggNC41MDdIMjZ2Mkg5LjgwN2wtNC43MTQtNC4wOTdhMiAyIDAgMDEtLjE5OC0yLjgyMkwxNi4wNDggNS4yNGEyIDIgMCAwMTIuODIyLS4xOTdsNi4wMzcgNS4yNDlhMiAyIDAgMDEuMTk4IDIuODIxbC04LjU5OCA5Ljg3NnoiIGlkPSJhIi8+PC9kZWZzPjx1c2UgZmlsbD0iIzVCNUI1QiIgZmlsbC1ydWxlPSJub256ZXJvIiB4bGluazpocmVmPSIjYSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTMgLTMpIi8+PC9zdmc+") !important; */
+    background-image: url("../icon-mapbox/delete.svg") !important;
+}
+
+.mapbox-gl-draw_ctrl-draw-btn.active {
+    background-color: gainsboro;
+}
+
+.mapboxgl-popup.mapboxgl-popup-anchor-bottom {
+    top: -18px;
+    /* top: -40px; */
+}
+
+.mapboxgl-popup-content {
+    /* box-shadow: 0px 10px 15px var(--color-effect-rgb-25) !important; */
+    box-shadow: 5px 5px 10px #5a5a5a !important;
+    border-radius: 5px;
+}
+
+
+/* icon 3 dot chart */
+
+.tui-chart .tui-chart-chartExportMenu-area.dark .tui-chart-chartExportMenu-button {
+    background-image: url("../icon-mapbox/dot_download_chart_white2.svg") !important;
+    /* box-shadow: 0px 0px 6px var(--color-effect-rgb-25) !important; */
+}
+
+.tui-chart .tui-chart-chartExportMenu-area.menu-opened .tui-chart-chartExportMenu-button {
+    background-image: url("../icon-mapbox/dot_download_chart_close.svg") !important;
+}
+
+.tui-chart .tui-chart-chartExportMenu-area.menu-opened.dark .tui-chart-chartExportMenu-button {
+    background-image: url("../icon-mapbox/dot_download_chart_close_white.svg") !important;
+}
+
+div.my-table .dt-button.dropdown-item.buttons-columnVisibility[data-cv-idx="5"] {
+    /* untuk menghilangkan unique_id di dasbor 1 */
+    display: none;
+}
+
+div.table-open .dt-button.dropdown-item.buttons-columnVisibility[data-cv-idx="4"],
+div.table-close .dt-button.dropdown-item.buttons-columnVisibility[data-cv-idx="4"] {
+    /* untuk menghilangkan unique_id di dasbor 2 */
+    display: none;
+}
+
+
+/* ubah text ↓ dgn icon FontAwesome */
+
+
+/* fa-long-arrow-down = \f175 */
+
+
+/* fa-long-arrow-up = \f176 */
+
+table.dataTable>thead .sorting:after {
+    content: '\f063';
+    font-family: 'Font Awesome 5 Free';
+    content: '\f175';
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: 600;
+    font-weight: normal;
+    text-decoration: inherit;
+    /* font-size: smaller; */
+}
+
+
+/* ubah text ↑ dgn icon FontAwesome */
+
+table.dataTable>thead .sorting:before {
+    content: '\f062';
+    font-family: 'Font Awesome 5 Free';
+    content: '\f176';
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: 600;
+    font-weight: normal;
+    text-decoration: inherit;
+    /* padding-right: 5px;
+            font-size: smaller; */
+}
+
+
+/* table.dataTable>thead>tr>th:not(.sorting_disabled) {
+    padding-right: 35px !important;
+} */

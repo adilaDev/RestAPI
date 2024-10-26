@@ -1,0 +1,120 @@
+#preloader {
+    background-color: rgba(0, 0, 0, 0.6) !important;
+}
+
+#status {
+    width: auto;
+    height: auto;
+    padding: 20px;
+    border-radius: 12px;
+    /* top: 260px;
+    left: 373px; */
+    left: 48%;
+    background-color: rgb(37, 37, 37);
+}
+
+.chase-dot:before {
+    background-color: rgb(115 103 240);
+}
+
+
+/* CSS untuk dasbor data table*/
+
+.tdcolor {
+    background-color: #3abdb9 !important;
+    color: white;
+}
+
+.dt-button.dropdown-item.buttons-columnVisibility {
+    padding: 5px 15px 10px 5px;
+}
+
+.dt-button.dropdown-item.buttons-columnVisibility.active {
+    background-color: #eff2f7 !important;
+    /* background-color: #e5e8ee !important; */
+    color: #212529;
+    padding: 5px 15px 10px 5px;
+}
+
+.dt-button.dropdown-item.buttons-columnVisibility.active:hover,
+.dt-button.dropdown-item.buttons-columnVisibility:hover {
+    /* background-color: #dbdee6 !important; */
+    background-color: #e2e5eb !important;
+}
+
+
+/* .dt-button.dropdown-item.buttons-columnVisibility:hover {
+    background-color: #f1f1f3 !important;
+} */
+
+
+/* fa-check = "\f00c" */
+
+
+/* fa-times = \f00d */
+
+
+/* fa-eye = \f06e */
+
+
+/* fa-eye-slash = \f070 */
+
+.dt-button.dropdown-item.buttons-columnVisibility.active::before {
+    content: '\f00c';
+    font-family: FontAwesome;
+    font-size: medium;
+    color: #212529;
+    padding: 8px;
+}
+
+.dt-button.dropdown-item.buttons-columnVisibility::before {
+    content: '';
+    font-family: FontAwesome;
+    font-size: medium;
+    color: #212529;
+    padding: 16px;
+}
+
+div.dt-button-collection div.dropdown-menu {
+    padding: 0;
+    box-shadow: 10px 5px 10px rgb(135 135 135 / 40%) !important;
+}
+
+div.my-table .dt-button.dropdown-item.buttons-columnVisibility[data-cv-idx="5"] {
+    /* untuk menghilangkan unique_id di dasbor 1 */
+    display: none;
+}
+
+div.table-open .dt-button.dropdown-item.buttons-columnVisibility[data-cv-idx="4"],
+div.table-close .dt-button.dropdown-item.buttons-columnVisibility[data-cv-idx="4"] {
+    /* untuk menghilangkan unique_id di dasbor 2 */
+    display: none;
+}
+
+
+/* ubah text ↑ dgn icon FontAwesome */
+
+
+/* fa-long-arrow-down = \f175 */
+
+
+/* fa-long-arrow-up = \f176 */
+
+table.dataTable>thead .sorting:after {
+    content: '\f176';
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+}
+
+
+/* ubah text ↓ dgn icon FontAwesome */
+
+table.dataTable>thead .sorting:before {
+    content: '\f175';
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+}

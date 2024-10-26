@@ -1,0 +1,7 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29 29" width="29" height="29">
+	<title>zoom_max-svg</title>
+	<style>
+		.s0 { fill: #ffffff } 
+	</style>
+	<path id="Layer" class="s0" d="m16 10v3h3c0.8 0 1.5 0.8 1.5 1.5 0 0.8-0.8 1.5-1.5 1.5h-3v3c0 0.8-0.8 1.5-1.5 1.5-0.8 0-1.5-0.8-1.5-1.5v-3h-3c-0.8 0-1.5-0.8-1.5-1.5 0-0.8 0.8-1.5 1.5-1.5h3v-3c0-0.8 0.8-1.5 1.5-1.5 0.8 0 1.5 0.8 1.5 1.5z"/>
+</svg>

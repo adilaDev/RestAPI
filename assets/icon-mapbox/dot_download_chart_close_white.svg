@@ -1,0 +1,11 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+	<title>dot_download_chart_close</title>
+	<defs>
+		<image  width="24" height="24" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYBAMAAAASWSDLAAAAAXNSR0IB2cksfwAAAA9QTFRFV1x7pKSkcHBwVVVVWVlZaunHRwAAADBJREFUeJxjYKAjEGJgYBKAcZQVQAgKmIyYjBDqlJ0VEBwWEwbsMih6UExDsYc2AAD86wNpROLyZAAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		.s0 { fill: #ffffff } 
+	</style>
+	<use id="Background" href="#img1" x="0" y="0"/>
+	<path id="Shape 1" class="s0" d="m16.8 14.7q0.2 0.2 0.2 0.5 0 0.3-0.2 0.6l-1 1q-0.3 0.2-0.6 0.2-0.3 0-0.5-0.2l-2.2-2.2-2.2 2.2q-0.2 0.2-0.5 0.2-0.3 0-0.6-0.2l-1-1q-0.2-0.3-0.2-0.6 0-0.3 0.2-0.5l2.2-2.2-2.2-2.2q-0.2-0.2-0.2-0.5 0-0.3 0.2-0.6l1-1q0.3-0.2 0.6-0.2 0.3 0 0.5 0.2l2.2 2.2 2.2-2.2q0.2-0.2 0.5-0.2 0.3 0 0.6 0.2l1 1q0.2 0.3 0.2 0.6 0 0.3-0.2 0.5l-2.2 2.2 2.2 2.2z"/>
+</svg>

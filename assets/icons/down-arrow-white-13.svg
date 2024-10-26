@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13 13" width="13" height="13">
+	<title>New Project</title>
+	<defs>
+		<image width="36" height="36" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAZRJREFUWEftVdtRw0AQkyqADggVECogVABUQAlABUAFQAlUAFRAqADoIOkAKhAjxmEcv+5snzNmJvvp8+1ppd0VMbLgyPBgCyikyJah/82QpAmA81AVic8fSS5WOdd6SJIP9hI/GEq3ILk/JkBLklbmN4oMzQC8hkpKfH5Mcl4JyB8l3QO4SPxoXboHkpf5w9IekrQL4GMDvbQEMCX51QgoY2kK4H1glg5JuvC1qN3Ukm4AXA8E6pak85ei0TokuYKDxKA+SVqByggB8kVPwE4iUN8AZlVS1U5Z8WFJnoK7RICuSHqKayPK7SWZpaOeoN5Ies81Riwgb1L3U1fpLJVH/M+zOvVQ/pKkUwBPoQprzs9IPsfcjWJolUiSk57EJM7980LSxURFW0De4qY9VjpLNSlu495NXZCujQGvGWcMRa0YykkXY8Al4xwSUMiAK41zMEBOLKnJgCuNc1BAGagqA641zsEBZaDyBtxonJsCtDJgv9donBsBlLHkJkebfdPbOmKqS/FPpz2U4uEtQ11ZHJ1kP1pBfCXPunz0AAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+	</style>
+	<use id="down-arrow-white-24" href="#img1" transform="matrix(.361,0,0,.361,0,0)"/>
+</svg>

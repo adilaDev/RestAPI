@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29 29" width="29" height="29">
+	<title>compas-svg</title>
+	<style>
+		.s0 { fill: #ffffff } 
+		.s1 { fill: #cccccc } 
+	</style>
+	<path id="Layer" class="s0" d="m10.5 14l4-8 4 8z"/>
+	<path id="south" class="s1" d="m18.5 16l-4 8-4-8z"/>
+</svg>
