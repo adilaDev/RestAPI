@@ -5,7 +5,7 @@ This documentation provides an overview of how to use the REST API services. You
 
 ## Programming languages ​​and libraries used:
 - [`Codeigniter 3`](https://codeigniter.com/download) (PHP Framework)
-- `[Bootstrap 4](https://getbootstrap.com/docs/4.0/getting-started/introduction/)`
+- [`Bootstrap 4`](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
 - `Custom Loading`
 - [`Sweetalert2`](https://sweetalert2.github.io/)
 - [`Highlight js`](https://highlightjs.org/usage/)
